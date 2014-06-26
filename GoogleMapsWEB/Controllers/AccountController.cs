@@ -8,10 +8,10 @@ using System.Web.Security;
 using DotNetOpenAuth.AspNet;
 using Microsoft.Web.WebPages.OAuth;
 using WebMatrix.WebData;
-using MvcApplication1.Filters;
-using MvcApplication1.Models;
+using SportiskasVilnius.Filters;
+using SportiskasVilnius.Models;
 
-namespace MvcApplication1.Controllers
+namespace SportiskasVilnius.Controllers
 {
     [Authorize]
     [InitializeSimpleMembership]
