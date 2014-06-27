@@ -17,10 +17,11 @@
     </script>
 </head>
 <body>
+    <div id="content">
+        @RenderBody()
+    </div>
 
-    @RenderBody()
-
-
+    <div id="map-canvas"/>
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
