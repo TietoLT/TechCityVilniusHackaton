@@ -54,6 +54,7 @@
     <Compile Include="Event.cs" />
     <Compile Include="Profile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserProfile.cs" />
     <Compile Include="Type.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.Entity;
+using SportiskasVilnius.DatabaseLibrary;
 
 namespace DatabaseLibrary
 {
@@ -13,6 +14,7 @@ namespace DatabaseLibrary
         public DbSet<Participant> Participants { get; set; } 
         public DbSet<Profile> Profiles { get; set; }
         public DbSet<Type> Types { get; set; }
+        public DbSet<UserProfile> UserProfiles { get; set; }
         public SContext()
         {
             

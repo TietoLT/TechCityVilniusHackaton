@@ -3,8 +3,8 @@ using System.Data.Entity;
 using System.Data.Entity.Infrastructure;
 using System.Threading;
 using System.Web.Mvc;
+using DatabaseLibrary;
 using WebMatrix.WebData;
-using SportiskasVilnius.Models;
 
 namespace SportiskasVilnius.Filters
 {
@@ -25,11 +25,11 @@ namespace SportiskasVilnius.Filters
         {
             public SimpleMembershipInitializer()
             {
-                Database.SetInitializer<UsersContext>(null);
+                Database.SetInitializer<SContext>(null);
 
                 try
                 {
-                    using (var context = new UsersContext())
+                    using (var context = new SContext())
                     {
                         if (!context.Database.Exists())
                         {

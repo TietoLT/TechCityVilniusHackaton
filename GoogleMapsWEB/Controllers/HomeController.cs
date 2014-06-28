@@ -16,7 +16,7 @@ namespace SportiskasVilnius.Controllers
             using (var ctx = new SContext())
             {
                 ctx.Events.Add(new Event() {Date = DateTime.Now, Desc = "", Id = 1, IsActive = true, LocX = "1", LocY = "1", Owner = "ME"});
-                ctx.SaveChanges();
+               // ctx.SaveChanges();
             }
             return View();
         }

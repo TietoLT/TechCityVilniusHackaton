@@ -5,11 +5,12 @@ using System.Transactions;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Security;
+using DatabaseLibrary;
 using DotNetOpenAuth.AspNet;
 using Microsoft.Web.WebPages.OAuth;
+using SportiskasVilnius.DatabaseLibrary;
 using WebMatrix.WebData;
 using SportiskasVilnius.Filters;
-using SportiskasVilnius.Models;
 
 namespace SportiskasVilnius.Controllers
 {
@@ -263,7 +264,7 @@ namespace SportiskasVilnius.Controllers
             if (ModelState.IsValid)
             {
                 // Insert a new user into the database
-                using (UsersContext db = new UsersContext())
+                using (var db = new SContext())
                 {
                     UserProfile user = db.UserProfiles.FirstOrDefault(u => u.UserName.ToLower() == model.UserName.ToLower());
                     // Check if user already exists
