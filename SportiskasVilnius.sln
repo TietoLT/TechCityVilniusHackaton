@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportiskasVilnius", "GoogleMapsWEB\SportiskasVilnius.csproj", "{082DD233-5866-4668-84FA-3C92AC340B87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseLibrary", "DatabaseLibrary\DatabaseLibrary.csproj", "{A4EB83E8-B33D-4E36-95E8-2240C7D9BF19}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportiskasVilnius.DatabaseLibrary", "DatabaseLibrary\SportiskasVilnius.DatabaseLibrary.csproj", "{A4EB83E8-B33D-4E36-95E8-2240C7D9BF19}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
