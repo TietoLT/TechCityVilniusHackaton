@@ -322,6 +322,12 @@
   <ItemGroup>
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DatabaseLibrary\SportiskasVilnius.DatabaseLibrary.csproj">
+      <Project>{a4eb83e8-b33d-4e36-95e8-2240c7d9bf19}</Project>
+      <Name>SportiskasVilnius.DatabaseLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
