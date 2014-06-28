@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width" />
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
-
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
 
     <script type="text/javascript"
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCCkXOPdW8FyG8A_1QASstBOPHsTRolu_U">
@@ -18,9 +19,8 @@
         @RenderBody()
     </div>
 
-    <div id="map-canvas"/>
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
+    <div id="map-canvas" />
+
     @Scripts.Render("~/bundles/app")
     @RenderSection("scripts", required: false)
 </body>
