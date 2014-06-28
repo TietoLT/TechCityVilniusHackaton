@@ -9,8 +9,7 @@ function initialize() {
         mapOptions);
 
 
-    var image = '~../../Images/soccer-ball.png';
-    var marker = addMarker(new google.maps.LatLng(54.691443, 25.2919347), "fule", image);
+    
 
 
     var contentString = '<div id="content">' +
@@ -38,9 +37,9 @@ function initialize() {
         content: contentString
     });
 
-    google.maps.event.addListener(marker, 'click', function () {
-        infowindow.open(map, marker);
-    });
+    
+
+    appJS();
 }
 
 //uzdeti markeriams

@@ -24,8 +24,8 @@ namespace SportiskasVilnius
                       "~/Scripts/respond.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/app").Include(
-                       "~/Scripts/app/map.js",
-                       "~/Scripts/app/app.js"));
+                        "~/Scripts/app/app.js",
+                       "~/Scripts/app/map.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
