@@ -8,5 +8,10 @@ namespace DatabaseLibrary
 {
     public class Participant
     {
+        public int Id { get; set; }
+
+        public int Event_Id { get; set; }
+
+        public int Profile_Id { get; set; }
     }
 }
