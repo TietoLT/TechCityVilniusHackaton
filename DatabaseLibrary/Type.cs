@@ -8,5 +8,12 @@ namespace DatabaseLibrary
 {
     public class Type
     {
+        public int Id { get; set; }
+
+        public string Name { get; set; }
+
+        public int Event_Id { get; set; }
+
+        public int Quantity { get; set; }
     }
 }
