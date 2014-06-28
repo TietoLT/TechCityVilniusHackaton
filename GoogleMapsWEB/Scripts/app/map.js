@@ -1,5 +1,7 @@
 ﻿var map;
 
+var events;
+
 function initialize() {
     var mapOptions = {
         center: new google.maps.LatLng(54.691443, 25.2919347),
